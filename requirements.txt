@@ -1,0 +1,5 @@
+# for streamlit
+numpy
+tensorflow
+streamlit
+pillow
