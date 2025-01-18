@@ -8,7 +8,7 @@ import os
 from PIL import Image
 import io
 
-MODEL_PATH = 'model.tflite'
+MODEL_PATH = 'model_mobilenet.tflite'
 LABELS_PATH = 'disease_labels.json'
 
 # Configure page settings
@@ -89,7 +89,7 @@ def main():
         try:
             # Display the uploaded image
             image_display = Image.open(uploaded_file)
-            st.image(image_display, caption="Uploaded Image", use_column_width=True)
+            st.image(image_display, caption="Uploaded Image", use_container_width=True)
             
             # Add a prediction button
             if st.button("Analyse"):

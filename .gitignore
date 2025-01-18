@@ -1,3 +1,6 @@
 disease_new_aug.keras
 model_optimized*
 test.py
+*.keras
+*_resnet*
+*_vgg*
