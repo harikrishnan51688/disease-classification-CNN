@@ -1,4 +1,5 @@
 # Maximizing ROI through Early Crop Disease Detection for an Agricultural Farm
+🌾[Try the Classifier in streamlit](https://farm-disease-classification.streamlit.app)
 
 ## Project Overview
 
